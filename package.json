@@ -2,8 +2,8 @@
   "name": "styled-breakpoints",
   "version": "6.5.0",
   "description": "Simple and powerfull css breakpoints for styled-components",
-  "main": "dist/lib/index.js",
-  "module": "dist/es/index.js",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
     "build": "npx rollup -c",
