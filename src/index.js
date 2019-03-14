@@ -17,7 +17,7 @@ export const up: Up = (breakName) => ({ theme }) =>
 type Down = (string) => (BpProps) => string;
 export const down: Down = (breakName) => ({ theme }) =>
   withMaxMedia(
-    calcMaxWidthInPx(
+    calcMinWidthInPx(
       breakName,
       theme,
       theme.ERROR_PREFIX_FOR_STYLED_BREAKPOINTS,
